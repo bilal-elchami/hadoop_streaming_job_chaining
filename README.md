@@ -1,4 +1,4 @@
-# hadoop_streaming_job_chainer
+# hadoop_streaming_job_chaining
 
 When running MapReduce jobs it is possible to have several MapReduce steps with overall job scenarios means the last reduce output will be used as input for the next map job.
 ```
