@@ -10,6 +10,10 @@ This script lanches hadoop MapReduce job several times and chain each output as 
 ## Usage
 
 ```
-$ # ./test.sh input_file_name iteration_number
-$ ./test.sh input.dat 3
+$ # ./launch.sh input_file_name iteration_number
+$ ./launch.sh input.dat 3
 ```
+
+This script is not generic and will automatically search for input files in a directory called data and will create a directory called output as well to temporary save the output files.
+
+Finally, the result file can be found in the data directory.
